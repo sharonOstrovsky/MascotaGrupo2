@@ -14,5 +14,7 @@ public class Main {
         //Mostrando objeto Mascota
         System.out.println(mascota.toString());
 
+        servicio.hablar(mascota);
+
     }
 }

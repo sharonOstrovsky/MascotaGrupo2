@@ -48,4 +48,20 @@ public class MascotaServicio {
             m.setEnergia(energiaActual);
         }
     }
+
+    public void hablar(Mascota mascota){
+
+
+        switch (mascota.getRaza()){
+            case "perro":
+                System.out.println("La mascota hace Guau");
+                break;
+            case "gato":
+                System.out.println("La mascota hace Miau");
+                break;
+
+        }
+
+
+    }
 }
