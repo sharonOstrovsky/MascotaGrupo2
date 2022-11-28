@@ -28,6 +28,6 @@ public class MascotaServicio {
     public void ladrar(Mascota m){
 
         System.out.println("Guau");
-        System.out.println("Holis");
+        System.out.println("Hol");
     }
 }
