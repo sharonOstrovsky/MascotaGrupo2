@@ -8,6 +8,11 @@ public class Main {
         MascotaServicio servicio = new MascotaServicio();
         Mascota mascota = servicio.crearMascota();
 
+        //Funcionalidad de Jasbir
+        servicio.Alimentar(mascota);
+
+        //Mostrando objeto Mascota
+        System.out.println(mascota.toString());
 
     }
 }
