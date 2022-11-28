@@ -24,4 +24,10 @@ public class MascotaServicio {
 
         return mascota;
     }
+
+    public void ladrar(Mascota m){
+
+        System.out.println("Guau");
+        System.out.println("Holis");
+    }
 }
