@@ -2,6 +2,7 @@ package Servicio;
 
 import Entidad.Mascota;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class MascotaServicio {
@@ -62,6 +63,13 @@ public class MascotaServicio {
 
         }
 
+
+    }
+
+    public void pasearMascota(Mascota mascota){
+        mascota.setEnergia(mascota.getEnergia()-200);
+
+        System.out.println(mascota.getNombre()+" dio un paseo.");
 
     }
 }
