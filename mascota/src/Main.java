@@ -9,5 +9,7 @@ public class Main {
         Mascota mascota = servicio.crearMascota();
 
 
+        servicio.hablar(mascota);
+
     }
 }

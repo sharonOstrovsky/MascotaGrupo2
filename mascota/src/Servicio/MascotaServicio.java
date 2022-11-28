@@ -25,9 +25,19 @@ public class MascotaServicio {
         return mascota;
     }
 
-    public void ladrar(Mascota m){
+    public void hablar(Mascota mascota){
 
-        System.out.println("Guau");
-        System.out.println("Hol");
+
+        switch (mascota.getRaza()){
+            case "perro":
+                System.out.println("La mascota hace Guau");
+                break;
+            case "gato":
+                System.out.println("La mascota hace Miau");
+                break;
+
+        }
+
+
     }
 }
