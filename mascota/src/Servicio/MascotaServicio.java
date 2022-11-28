@@ -30,5 +30,6 @@ public class MascotaServicio {
         mascota.setEnergia(mascota.getEnergia()-200);
 
         System.out.println(mascota.getNombre()+" dio un paseo.");
+        
     }
 }
