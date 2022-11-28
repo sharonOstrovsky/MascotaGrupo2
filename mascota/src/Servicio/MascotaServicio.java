@@ -24,4 +24,13 @@ public class MascotaServicio {
 
         return mascota;
     }
+
+    public void mostrarMascota(Mascota mascota){
+
+        System.out.println("MASCOTA " + mascota.getNombre());
+        System.out.println("Raza: " + mascota.getRaza());
+        System.out.println("Edad: " + mascota.getEdad());
+        System.out.println("Tipo de alimento: " + mascota.getAlimento());
+        System.out.println("Energia: " + mascota.getEnergia());
+    }
 }
