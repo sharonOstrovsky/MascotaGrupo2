@@ -33,4 +33,19 @@ public class MascotaServicio {
         System.out.println("Tipo de alimento: " + mascota.getAlimento());
         System.out.println("Energia: " + mascota.getEnergia());
     }
+
+    public void Alimentar(Mascota m){
+        System.out.println("Cuanto/as " + m.getAlimento() + " le quieres dar?: ");
+        int cantidad = input.nextInt();
+        int energiaActual = m.getEnergia();
+
+        if (m.getEnergia() == 1000){
+            System.out.println("Tu mascota ya esta full");
+        }else{
+            for (int i = 0; i < cantidad; i++){
+                energiaActual+=10;
+            }
+            m.setEnergia(energiaActual);
+        }
+    }
 }
