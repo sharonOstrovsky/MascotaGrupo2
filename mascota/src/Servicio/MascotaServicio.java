@@ -25,6 +25,15 @@ public class MascotaServicio {
         return mascota;
     }
 
+    public void mostrarMascota(Mascota mascota){
+
+        System.out.println("MASCOTA " + mascota.getNombre());
+        System.out.println("Raza: " + mascota.getRaza());
+        System.out.println("Edad: " + mascota.getEdad());
+        System.out.println("Tipo de alimento: " + mascota.getAlimento());
+        System.out.println("Energia: " + mascota.getEnergia());
+    }
+
     public void Alimentar(Mascota m){
         System.out.println("Cuanto/as " + m.getAlimento() + " le quieres dar?: ");
         int cantidad = input.nextInt();
